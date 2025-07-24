@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puzzle.ID</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>Puzzle.ID</header>
+
+  <nav>
+    <div class="nav-left">
+      <label for="avatarInput">
+        <img src="avatar.jpg" alt="Avatar" class="avatar" id="avatar" />
+      </label>
+      <input type="file" id="avatarInput" accept="image/*" />
+      <div id="playerName" contenteditable="true" title="Klik untuk ubah nama">Nama</div>
+      <div id="playerLevel">Level 1</div>
+      <div id="playerCoin">💰 0</div>
+    </div>
+    <div class="nav-right">
+      <div id="timer">⏱️ 00:00</div>
+    </div>
+  </nav>
+
+  <div class="content">
+    <h2>Temukan Pasangan Emoji Hewan 🐾</h2>
+    <div id="grid"></div>
+  </div>
+
+  <footer>&copy; 2025 KHAIRUL AKBAR. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
